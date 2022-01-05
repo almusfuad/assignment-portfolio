@@ -6,7 +6,7 @@ body {
     display: flex;
     padding-left: 10%;
     padding-top: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 180px;
 }
 
 .half-width {
@@ -14,7 +14,7 @@ body {
 }
 
 #heading-image {
-    height: 550px;
+    height: 540px;
     width: auto;
     padding-left: 14%;
     border-radius: 40%;
@@ -38,7 +38,7 @@ body {
     color: rgba(255, 166, 0, 0.596);
 }
 
-p {
+#section-heading p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-bottom: 30px;
@@ -60,4 +60,59 @@ p {
     font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
     background-color: rgb(245, 98, 72);
+}
+
+#section-card {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 10%;
+    margin-bottom: 180px;
+}
+
+#card-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: gray;
+    margin-bottom: 70px;
+}
+
+.flexible-card {
+    display: inline;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+    height: 400px;
+    width: 280px;
+}
+
+.flexible-card img {
+    height: 150px;
+    padding-left: 35%;
+    width: 100px;
+}
+
+.flexible-card h2 {
+    text-align: center;
+    font-size: 30px;
+    color: chocolate;
+}
+
+.flexible-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+#left-most {
+    background-color: rgb(212, 247, 247);
+}
+
+#middle-card {
+    background-color: rgba(255, 228, 196, 0.87);
+}
+
+#right-most {
+    background-color: rgb(195, 255, 200);
 }
