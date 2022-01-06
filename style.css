@@ -8,6 +8,11 @@ body {
     padding-top: 5%;
     margin-bottom: 180px;
     background-color: aliceblue;
+    background-image: url(images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: 540px;
+    background-position-x: left;
+    background-position-y: top;
 }
 
 .half-width {
@@ -22,7 +27,7 @@ body {
 }
 
 #heading h1 {
-    color: grey;
+    color: rgb(88, 85, 85);
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     font-weight: 800;
@@ -36,7 +41,7 @@ body {
 }
 
 .orange-color {
-    color: rgba(255, 166, 0, 0.596);
+    color: rgb(255, 190, 11);
 }
 
 #section-heading p {
@@ -44,7 +49,6 @@ body {
     font-size: 20px;
     margin-bottom: 30px;
     padding-left: 4%;
-    color: rgb(68, 51, 51);
 }
 
 .button-adjuster {
@@ -74,7 +78,7 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
-    color: gray;
+    color: rgb(165, 62, 62);
     /* padding-top: 20px; */
     margin-bottom: 70px;
 }
@@ -147,6 +151,11 @@ footer p {
     padding-left: 7%;
     margin-bottom: 180px;
     background-color: aliceblue;
+    background-image: url(images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-size: 5350px;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
 #section-quato img {
@@ -158,8 +167,8 @@ footer p {
 
 #right-side-button h1 {
     text-align: end;
-    font-size: 52px;
-    color: grey;
+    font-size: 65px;
+    color: rgb(36, 88, 75);
     padding: 3%;
     border-right: 2px solid salmon;
     border-radius: 10px;
@@ -167,8 +176,8 @@ footer p {
 }
 
 #larger {
-    font-size: 58px;
-    color: rgb(129, 86, 86);
+    font-size: 45px;
+    color: rgb(25, 10, 32);
 }
 
 #right-side-button p {
@@ -180,4 +189,46 @@ footer p {
 
 #right-side-button {
     padding-right: 6%;
+}
+
+#section-community {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    padding-left: 7%;
+    margin-bottom: 180px;
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 540px;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+
+#section-community img {
+    height: 540px;
+    width: auto;
+    padding-left: 14%;
+    padding-right: 10%;
+}
+
+.community h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: rgb(92, 67, 5);
+    background-color: rgb(252, 252, 253);
+    padding-left: 4%;
+    border-radius: 5px;
+    border-bottom: 3px solid;
+}
+
+.community span {
+    color: rgb(221, 67, 11);
+}
+
+.community p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 4%;
+    margin-bottom: 40px;
 }
