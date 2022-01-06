@@ -124,26 +124,6 @@ body {
     background-color: rgb(195, 255, 200);
 }
 
-footer {
-    height: auto;
-    background-color: black;
-    padding: 25px;
-}
-
-footer h1 {
-    color: white;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 36px;
-    word-wrap: break-word;
-}
-
-footer p {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-
 #section-quato {
     padding-top: 3%;
     padding-bottom: 2%;
@@ -151,17 +131,17 @@ footer p {
     padding-left: 7%;
     margin-bottom: 180px;
     background-color: aliceblue;
-    background-image: url(images/shapes/shape-8.png);
+    background-image: url(images/shapes/shape-6.png);
     background-repeat: no-repeat;
-    background-size: 5350px;
+    background-size: 610px;
     background-position-x: right;
     background-position-y: bottom;
 }
 
 #section-quato img {
-    height: 540px;
+    height: 520px;
     width: auto;
-    padding-left: 14%;
+    padding-left: 10%;
     border-radius: 10%;
 }
 
@@ -176,8 +156,8 @@ footer p {
 }
 
 #larger {
-    font-size: 45px;
-    color: rgb(25, 10, 32);
+    font-size: 54px;
+    color: rgb(115, 63, 139);
 }
 
 #right-side-button p {
@@ -231,4 +211,81 @@ footer p {
     font-family: 'Poppins', sans-serif;
     padding-left: 4%;
     margin-bottom: 40px;
+}
+
+#bonus-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: darkolivegreen;
+    text-align: right;
+    padding-right: 10%;
+    margin: 120px;
+}
+
+#bonus-header span {
+    color: rgb(255, 162, 49);
+    padding-left: 9%;
+}
+
+#section-bonus {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    padding-left: 22%;
+    padding-right: 18%;
+    margin-bottom: 180px;
+    background-color: aliceblue;
+    background-image: url(./images/shapes/shape-8.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 160px;
+    background-repeat: no-repeat;
+}
+
+#section-bonus img {
+    height: 350px;
+}
+
+#section-bonus h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 16, 13);
+}
+
+#section-bonus p {
+    padding-left: 4%;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8%;
+    border-left: 2px solid;
+}
+
+.programming-hero {
+    color: rgb(255, 82, 111);
+}
+
+footer {
+    height: auto;
+    background-color: black;
+    padding-top: 25px;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    word-wrap: break-word;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer h6 {
+    color: rgb(143, 93, 0);
+    margin-bottom: 0;
+    text-align: center;
 }
